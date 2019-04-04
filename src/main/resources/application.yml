@@ -5,3 +5,9 @@ spring:
     password: root
 mybatis:
   mapper-locations: classpath:mapper/*.xml
+thread:
+  corePoolSize: 10
+  maximumPoolSize: 50
+logging:
+  level:
+    com.dreamcc.superdemo.mapper: debug
